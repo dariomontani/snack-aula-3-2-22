@@ -59,6 +59,8 @@ $products = [
                 $filterProducts[] = $product;
             }
         }
+    } else {
+        $filterProducts = $products;
     }
 ?>
 
